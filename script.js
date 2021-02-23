@@ -1,10 +1,10 @@
 document.getElementById('click').addEventListener('click', ageGuesser)
 
-let age = 16
+const age = 16
 let answer = 0
 
 function ageGuesser () {
-  var answer = prompt("Please input number", "00")
+  answer = prompt('Please input number', '00')
   answer = parseInt(answer)
   if (age === answer) {
     document.getElementById('name').innerHTML = ('You got it!')
